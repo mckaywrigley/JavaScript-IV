@@ -58,7 +58,7 @@ class ProjectManager extends Instructor {
     }
 
     standUp(channel) {
-        return (`${this.name} announces to ${channel}, @${channel} stand-up time!`);
+        return (`${this.name} announces to ${channel} - stand-up time!`);
     }
 
     debugsCode(student, subj) {
@@ -103,6 +103,6 @@ const mckay = new Student({
 console.log(gabe.specialty);
 console.log(gabe.grade('Mckay', 'CSS'));
 console.log(jill.gradClassName);
-console.log(jill.standUp('web18_jill'));
+console.log(jill.standUp('web18'));
 console.log(mckay.location);
 console.log(mckay.sprintChallenge('JS'));
